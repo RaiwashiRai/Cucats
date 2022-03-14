@@ -1,0 +1,152 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 6px 0;
+}
+
+.btn-dark:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.fa-brands{
+    padding-right: 5px;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+#title{
+    background-color: #8A39E1;
+    color: #fff;
+    /*shorhand for black is #000 and for white #fff */
+}
+
+/* navigation bar */
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+/* Rotated image */
+
+.cat1{
+    width: 90%;
+    transform: rotate(5deg);
+}
+
+/* Features */
+
+.fs{
+    margin: 7% 15%;
+    text-align: center;
+}
+
+.fc{
+    padding: 1em 2em 1em;
+}
+
+.fp{
+    font-size: medium;
+    color: #8f8f8f;
+}
+
+.fa-solid{
+    color: #B667F1;  
+}
+
+.fa-solid:hover{
+    color: #9C51E0;  
+}
+
+/* Testimonial section */
+
+#testimonials{
+    background-color: #B667F1;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+    height: 30rem;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #B667F1;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 5% 1.5% 2%;
+}
+
+/* Pricing Cards */
+
+#pricing{
+    padding: 6rem 4rem;
+}
+
+.ccol{
+    margin: 1rem auto;
+}
+
+.card-header{
+    background-color: #B667F1;
+    color: #fff;
+}
+
+.card-footer{
+    padding: 0;
+    background-color: #fff;
+    border-top: none;
+}
+
+.btnc{
+    width: 95%;
+    margin: 0.5rem auto;
+}
+
+/* cta */
+
+#cta{
+    text-align: center;
+    background-color: #B667F1;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+/* footer*/
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding-top: 1.5%;
+    color: #8f8f8f;
+}
