@@ -69,6 +69,10 @@ h3{
     color: #8f8f8f;
 }
 
+.ficon{
+    font-size: 5em;
+}
+
 .fa-solid{
     color: #B667F1;  
 }
@@ -149,4 +153,36 @@ h3{
     text-align: center;
     padding-top: 1.5%;
     color: #8f8f8f;
+}
+
+/* break-points custom */
+
+@media (max-width: 500px){
+
+    h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    .cat1{
+        padding-top: 10px;
+        padding-left: 30px;
+        width: 70%;
+    }
+
+    .ficon{
+        font-size: 3em;
+    }
+
+    .carousel-item{
+        height: 20rem;
+    }
 }
